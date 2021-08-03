@@ -169,4 +169,107 @@ export default {
     }
   }
 }
+
+@media (max-width: 780px) {
+  .container {
+    width: 100%;
+    height: 800px;
+    margin-top: 0px;
+
+    &_center {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding-top: 8em;
+
+      &-text {
+        width: 300px;
+        height: 200px;
+        text-shadow: 1px 1px 1px #333;
+
+        .title {
+          font-size: 1rem;
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+
+        .info {
+          font-size: 0.9rem;
+          margin: 8px 0;
+        }
+
+        .inscription {
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+      }
+
+      &-form {
+        width: 300px;
+        height: 480px;
+        background: #fff;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8em;
+        border-radius: 9px;
+        -webkit-box-shadow: 0px 3px 5px 0px #686565;
+        -moz-box-shadow: 0px 3px 5px 0px #686565;
+        box-shadow: 0px 3px 5px 0px #686565;
+
+        .title {
+          color: #4682b4;
+          font-size: 0.9rem;
+          font-weight: 600;
+          text-align: start;
+          padding: 10px 20px;
+        }
+
+        .form-tag {
+          width: 260px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          margin:0 20px 10px 20px;
+
+          .label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            .important {
+              color: #ff0000;
+              font-weight: bold;
+            }
+          }
+
+          .input {
+            width: 260px;
+            height: 30px;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            transition: 0.4s;
+          }
+        }
+
+        .btn {
+          background: blueviolet;
+          color: #fff;
+          font-size: 0.8rem;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 5px 30px;
+          border-radius: 5px;
+          transition: linear 0.5s;
+        }
+
+        .btn:hover {
+          background: lightskyblue;
+        }
+      }
+    }
+  }
+}
 </style>
