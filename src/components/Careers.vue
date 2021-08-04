@@ -67,7 +67,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin: 50px 0 50px 0;
 
   &-title {
     color: #2782bb;
@@ -156,7 +156,7 @@ export default {
     text-align: center;
     margin: 20px;
     width: 320px;
-    padding: 20px 0;
+    padding: 15px 0;
     border-radius: 5px;
     background: #2782bb;
     color: #fff;
