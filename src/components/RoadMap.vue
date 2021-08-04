@@ -54,7 +54,7 @@ export default {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 
   &-title {
     font-size: 2.1rem;
