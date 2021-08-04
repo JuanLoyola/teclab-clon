@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div class="left">
-      <img class="left-img" :src="require(`@/assets/${img}`)"  alt="explicacion">
-      <div class="left-text">
-        <h2 class="title">{{ title }}</h2>
-        <p class="info">{{ info }}</p>
-      </div>
+        <img class="left-img" loading="lazy" :src="require(`@/assets/${img}`)"  alt="explicacion">
+        <div class="left-text">
+          <h2 class="title">{{ title }}</h2>
+          <p class="info">{{ info }}</p>
+        </div>
     </div>
   </div>
 </template>

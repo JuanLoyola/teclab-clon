@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="container-title">Teclab, Educaci&oacute;n para cambiarlo todo</h2>
     <h4 class="container-info">Asumimos el desafío de crear, iterar, aprender y enseñar diferente, pensando en vos. Para que cambies lo que quieras, tu trabajo, tu carrera, tu futuro, tus oportunidades, nosotros diseñamos lo que el mundo profesional y laboral necesitan: educación para cambiarlo todo.</h4>
-    <section class="col">
+    <div class="col">
       <LeftArrow
         :style= "{color: '#44b5a6'}"
         img="step1.png"
@@ -27,7 +27,7 @@
         title="Carreras pensadas 100% online"
         info="Vos administrás tus horas de estudio y elegís desde dónde estudiar y cuando rendir de forma remota."
       />
-    </section>
+    </div>
   </div>
 </template>
 
@@ -73,8 +73,8 @@ export default {
   }
 
   .col {
-    width: 50%;
-    height: 740px;
+    width: 1060px;
+    height: 780px;
   }
 }
 

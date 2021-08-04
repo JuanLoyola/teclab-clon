@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="right">
-      <img class="right-img" :src="require(`@/assets/${img}`)"  alt="explicacion">
+      <img class="right-img" loading="lazy" :src="require(`@/assets/${img}`)"  alt="explicacion">
       <div class="right-text">
         <h2 class="title">{{ title }}</h2>
         <p class="info">{{ info }}</p>
