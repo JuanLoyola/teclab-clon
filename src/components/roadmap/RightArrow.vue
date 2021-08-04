@@ -88,4 +88,20 @@ export default {
     }
   }
 }
+
+@media (max-width: 320px) {
+  .container {
+    .right {
+
+      &-text {
+
+        .info {
+          width: 280px;
+          margin-top: 10px;
+          color: #817f7f;
+        }
+      }
+    }
+  }
+}
 </style>
