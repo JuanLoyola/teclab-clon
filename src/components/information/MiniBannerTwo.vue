@@ -1,8 +1,8 @@
 <template>
   <div class="content">
   <div class="background"></div>
-    <h2 class="title">Seguro de adaptación</h2>
-    <p class="info">En la educación superior Argentina, las tasas más altas de deserción se dan en el primer cuatrimestre de cursado. En Teclab lo entendemos y sabemos que, para alcanzar tu meta, te tenés que adaptar a la modalidad.</p>
+    <h2 class="title">Articulación con Universidad Siglo 21</h2>
+    <p class="info">Para nosotros es muy importante que puedas seguir con tu proceso de formación.</p>
     <button class="button">Ver más</button>
   </div>
 </template>

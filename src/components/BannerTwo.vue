@@ -28,9 +28,9 @@ export default {
 <style lang="scss" scoped>
 .container {
   width: 100%;
-  height: 50vh;
+  height: 100%;
   background: #fff;
-  padding: 30px 0;
+  padding: 50px 0 0 0;
 }
 
 </style>
