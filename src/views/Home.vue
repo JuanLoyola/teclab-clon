@@ -6,6 +6,7 @@
     <BannerTwo />
     <Students />
     <Internships />
+    <TheFooter />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import RoadMap from '@/components/RoadMap.vue'
 import BannerTwo from '@/components/BannerTwo.vue'
 import Students from '@/components/Students.vue'
 import Internships from '@/components/Internships.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 export default {
   name: 'Home',
@@ -25,7 +27,8 @@ export default {
     RoadMap,
     BannerTwo,
     Students,
-    Internships
+    Internships,
+    TheFooter
   }
 }
 </script>

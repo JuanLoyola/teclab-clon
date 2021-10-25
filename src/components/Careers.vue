@@ -8,7 +8,7 @@
         v-for="(item, index) in cards.items[0].variants"
         :key="index"
         >
-        <img class="img" loading="lazy" :src=item.img alt="carrera">
+        <img class="img" loading="lazy" width="100%" height="230px" :src=item.img alt="carrera">
         <div class="text">
           <p class="epigraph">Inscripciones abiertas</p>
           <p class="career">{{ item.title }}</p>
